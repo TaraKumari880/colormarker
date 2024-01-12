@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .items {
+            width: 20vw;
+            height: 4vh;
+            border: 1px solid black;
+            margin: 20px;
+            background-color: rgb(135, 30, 30);
+            box-shadow: 0 0 50px rgb(224, 180, 180);
+        }
+        .items2{
+            width: 20vw;
+            height: 4vh;
+            border: 1px solid black;
+            margin: 20px;
+            background-color:rgb(57, 232, 75);
+            box-shadow: 0 0 50px rgb(183, 239, 191);
+
+        }
+        .items3{
+            width: 20vw;
+            height: 4vh;
+            border: 1px solid black;
+            margin: 20px;
+            background-color:rgb(24, 24, 226);
+            box-shadow: 0 0 50px rgb(178, 167, 219);
+
+        }
+
+        #container {
+            border: 2px solid white;
+            padding-left: 40%;
+        }
+        .nested1,
+        .nested2{
+            display: inline-block;
+            height: 99%;
+            /* border: 2px solid black; */
+        }
+        .nested1{
+            /*border-right: 2px solid black;*/
+            width: 30%;
+
+        }
+        .nested2{
+            border-left: 15px double black;
+            width: 55%;
+            background-color:  rgb(196, 153, 153)
+
+        }
+
+        .nested3,
+        .nested4{
+            display: inline-block;
+            height: 99%;
+            /* border: 2px solid black; */
+        }
+        .nested3{
+            /*border-right: 2px solid black;*/
+            width: 30%;
+
+        }
+        .nested4{
+            border-left: 15px double black;
+            width: 55%;
+            background-color:  rgb(143, 225, 147)
+
+        }
+
+
+
+        .nested5,
+        .nested6{
+            display: inline-block;
+            height: 99%;
+            /* border: 2px solid black; */
+        }
+        .nested5{
+            /*border-right: 2px solid black;*/
+            width: 30%;
+
+        }
+        .nested6{
+            border-left: 15px double black;
+            width: 55%;
+            background-color:  rgb(175, 165, 236)
+
+        }
+
+
+
+    </style>
+</head>
+
+<body>
+    <h1>CSS Color Marker</h1>
+    <div id="container">
+        <div class="items">
+            <span class="nested1"></span>
+            <span class="nested2"></span>
+        </div>
+        <div class="items2">
+            <span class="nested3"></span>
+            <span class="nested4"></span>
+        </div>
+        
+        <div class="items3">
+            <span class="nested5"></span>
+            <span class="nested6"></span>
+        </div>
+    </div>
+</body>
+
+</html>
